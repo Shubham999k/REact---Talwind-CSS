@@ -65,7 +65,7 @@ const App = () => {
           href="#"
           className="bg-[#c2410c] text-white font-bold my-4 py-3 rounded w-full hover:bg-[#bc3b07]"
         >
-          Login
+          Login 
         </button>
         <div className="flex items-center justify-center gap-1">
           <hr className="text-zinc-400 w-25" />
