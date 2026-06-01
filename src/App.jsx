@@ -58,7 +58,7 @@ const App = () => {
             <label className="text-gray-500 ms-2">Remember me</label>
           </div>
           <a className="text-[#c2410c]" href="">
-            Forgot Password?
+            Forgot Password? 
           </a>
         </div>
         <button
