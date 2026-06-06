@@ -1,14 +1,33 @@
-import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import Header from "./components/Header";
 
-const App = () => {
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Product from "./pages/Product";
+import Counter from "./pages/Counter";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
+
+function App() {
   return (
-   <>
-   <Header/>
-   </>
+    <BrowserRouter>
+
+      <Header />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/product" element={<Product />} />
+        <Route path="/counter" element={<Counter />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+      </Routes>
+
+    </BrowserRouter>
   );
-};
+}
 
 export default App;
-
-
