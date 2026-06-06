@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 function Header() {
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-primary py-3">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-primary py-1">
                 <div className="container">
 
                     {/* Logo */}
