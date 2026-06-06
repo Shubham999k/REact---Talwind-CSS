@@ -52,7 +52,7 @@ function Header() {
                     <div className="d-flex gap-2">
 
                         <NavLink
-                            className="btn btn-outline-light text-primary fw-semibold"
+                            className="btn btn-light text-primary fw-semibold"
                             to="/login"
                         >
                             Login
