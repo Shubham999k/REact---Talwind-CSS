@@ -35,7 +35,7 @@ function Header() {
 
                             <li className="nav-item">
                                 <NavLink className="nav-link text-primary" to="/product">
-                                    Product
+                                    Products
                                 </NavLink>
                             </li>
 
