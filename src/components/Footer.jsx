@@ -7,7 +7,7 @@ function Footer() {
 
                 <div className="container">
 
-                    <div className="row">
+                    <div className="row text-center">
 
                         <div className="col-md-4">
 
@@ -34,15 +34,6 @@ function Footer() {
                                         className="text-decoration-none text-light"
                                     >
                                         Home
-                                    </Link>
-                                </li>
-
-                                <li>
-                                    <Link
-                                        to="/product"
-                                        className="text-decoration-none text-light"
-                                    >
-                                        Menu
                                     </Link>
                                 </li>
 
